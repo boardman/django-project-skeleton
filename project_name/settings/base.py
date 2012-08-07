@@ -33,10 +33,10 @@ STATICFILES_FINDERS = [
     "django.contrib.staticfiles.finders.AppDirectoriesFinder",
 ]
 
-# Template stuff   
+# Template stuff
 TEMPLATE_LOADERS = [
     "django.template.loaders.filesystem.Loader",
-    "django.template.loaders.app_directories.Loader",    
+    "django.template.loaders.app_directories.Loader",
 ]
 
 TEMPLATE_CONTEXT_PROCESSORS = [
@@ -80,4 +80,5 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.auth",
     "django.contrib.contenttypes",
+    "django.contrib.admin",
 ]
